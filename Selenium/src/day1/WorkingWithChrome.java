@@ -24,7 +24,7 @@ public class WorkingWithChrome {
 	}
 	
 	public void getTitleOfThePage() {
-		System.out.println("Title of the page : :" +driver.getTitle());
+		System.out.println("Title of the webpage : :" +driver.getTitle());
 	}
 	
 	public void closeBrowser() {
