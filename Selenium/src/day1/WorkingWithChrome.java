@@ -1,5 +1,9 @@
 package day1;
 
+import org.openqa.selenium.Dimension;
+
+
+
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WorkingWithChrome {
@@ -16,7 +20,12 @@ public class WorkingWithChrome {
 		driver = new ChromeDriver();
 		//Opening a browser//
 
-		driver.manage().window().maximize(); //maximize the browser
+		Dimension dim = new Dimension(500, 500); // created instance of dimension class
+		driver.manage().window().setSize(dim);; // pass dim argument in thiis manage option
+		
+		
+//		driver.manage().window().maximize(); //maximize the browser
+		
 		driver.manage().deleteAllCookies(); //doesn't delete, it bypass all the cookies
 		
 		driver.get("http://qatechhub.com"); //navigate to particular URL. http is protocol, and protocol is important
