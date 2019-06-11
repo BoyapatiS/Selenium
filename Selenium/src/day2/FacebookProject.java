@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FacebookProject {
 	
-ChromeDriver driver; //ChromeDriver is constructor
+	ChromeDriver driver; //ChromeDriver is constructor
 	
 	public void invokeBrowser() {
 		 
