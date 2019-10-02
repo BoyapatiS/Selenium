@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99 Suite]">
+  <test thread-count="5" name="Login Feature Test(failed)">
+    <parameter name="userPassword" value="zazYbEs"/>
+    <parameter name="userid" value="mngr201392"/>
+    <classes>
+      <class name="day7TestNG.Guru99LoginFeature">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyLoginToGuru99" invocation-numbers="0"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- day7TestNG.Guru99LoginFeature -->
+    </classes>
+  </test> <!-- Login Feature Test(failed) -->
+</suite> <!-- Failed suite [Guru99 Suite] -->

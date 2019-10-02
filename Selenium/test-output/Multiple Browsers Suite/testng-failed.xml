@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Multiple Browsers Suite]" parallel="tests">
+  <test thread-count="5" name="Mozilla Test2(failed)" parallel="tests">
+    <parameter name="browser" value="remote-chrome"/>
+    <classes>
+      <class name="day8.Guru99MultipleBrowsers">
+        <methods>
+          <include name="logOut"/>
+          <include name="invokeBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day8.Guru99MultipleBrowsers -->
+    </classes>
+  </test> <!-- Mozilla Test2(failed) -->
+  <test thread-count="5" name="Mozilla Test(failed)" parallel="tests">
+    <parameter name="browser" value="remote-chrome"/>
+    <classes>
+      <class name="day8.Guru99MultipleBrowsers">
+        <methods>
+          <include name="logOut"/>
+          <include name="invokeBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day8.Guru99MultipleBrowsers -->
+    </classes>
+  </test> <!-- Mozilla Test(failed) -->
+</suite> <!-- Failed suite [Multiple Browsers Suite] -->

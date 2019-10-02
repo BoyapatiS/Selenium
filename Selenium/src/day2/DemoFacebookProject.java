@@ -6,7 +6,9 @@ public class DemoFacebookProject {
 		FacebookProject fb = new FacebookProject();
 		
 		fb.invokeBrowser();
-		fb.login("paladugusritha@gmail.com", "Infiniti@123");
+//		fb.login("paladugusritha@gmail.com", "Infiniti@123");
+		fb.signUp();
+		fb.closeBrowser();
 
 	}
 

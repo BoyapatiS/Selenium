@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Multiple Browsers Suite" parallel="tests"> <!--You should define Parallel Test in suite-->
+
+  <test thread-count="5" name="Chrome Test">
+  	<parameter name='browser' value='chrome'></parameter>
+   	<classes>
+  		<class name="day8.Guru99MultipleBrowsers"></class>
+  	</classes>
+  </test> 
+  
+  <test thread-count="5" name="Mozilla Test">
+  	<parameter name='browser' value='mozilla'></parameter>
+   	<classes>
+  		<class name="day8.Guru99MultipleBrowsers"></class>
+  	</classes>
+  </test>
+  
+</suite> <!-- Multiple Browsers Suite -->

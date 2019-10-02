@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Class Execution Suite">
+  <test thread-count="5" name="Multiple class Test">
+    <classes>
+    	<class name="day7TestNG1.TestngTesting1"></class>
+    	<class name="day7TestNG1.TestngTesting2"></class>
+    </classes>
+  </test> <!-- Multiple class Test -->
+</suite> <!-- Class Execution Suite -->

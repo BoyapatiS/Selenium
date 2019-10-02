@@ -10,7 +10,7 @@ public class WorkingWithFirefox {
 	public void invokeBrowser() {
 		 
 		
-		System.setProperty("webdriver.gecko.driver", "/Users/srithaboyapati/Downloads/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/Users/srithaboyapati/Documents/Programs/Java/Libs/geckodriver");
 		
 		driver = new FirefoxDriver();
 		
